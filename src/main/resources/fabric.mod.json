@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "structuretemplategrid",
+	"version": "${version}",
+	"name": "Structure Template Grid",
+	"description": "Adds a world preset that generates a grid of structure templates.",
+	"authors": [
+		"haykam821"
+	],
+	"contact": {
+		"homepage": "https://github.com/haykam821/Structure-Template-Grid#readme",
+		"issues": "https://github.com/haykam821/Structure-Template-Grid/issues",
+		"sources": "https://github.com/haykam821/Structure-Template-Grid"
+	},
+	"entrypoints": {
+		"main": [
+			"io.github.haykam821.structuretemplategrid.StructureTemplateGrid"
+		]
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://haykam.com/links/discord"
+			}
+		}
+	},
+	"license": "MIT",
+	"depends": {
+		"fabric-api": "*",
+		"fabricloader": ">=0.4.0",
+		"java": ">=17"
+	}
+}
